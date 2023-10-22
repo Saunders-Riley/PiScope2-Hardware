@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints.pretty")(options "")(descr ""))
+  (lib (name "PiScope2_Footprints")(type "KiCad")(uri "${KIPRJMOD}/PiScope2_Footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,83 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a3412a64-16d8-4b34-8917-d8abe19cafb7)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "PiScope2")
+    (rev "A")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "PiScope2 PCB" (at 109.22 67.31 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
+    (uuid b56f909f-2dcb-4cce-8727-0ca22026591a)
+  )
+  (text "1. Title Page\n2. Pi Headers\n3. Power Supplies" (at 31.75 88.9 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid de8df482-b32d-4e2b-9943-d750c83c89cb)
+  )
+  (text "CONTENTS" (at 26.67 76.2 0)
+    (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    (uuid e899943a-7cb1-428d-852a-c9a3f4133fcf)
+  )
+
+  (sheet (at 77.47 85.09) (size 12.7 3.81)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 47eebb63-bc9e-44cf-8ffe-42f5885c1b75)
+    (property "Sheetname" "Power Supplies" (at 77.47 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_supplies.kicad_sch" (at 77.47 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiScope2_PCB"
+        (path "/a3412a64-16d8-4b34-8917-d8abe19cafb7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 77.47 88.9) (size 12.7 3.81)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7be869f9-f87c-4640-9651-88080b0d9076)
+    (property "Sheetname" "Power Supplies 2" (at 77.47 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_supplies_2.kicad_sch" (at 77.47 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiScope2_PCB"
+        (path "/a3412a64-16d8-4b34-8917-d8abe19cafb7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 77.47 81.28) (size 12.7 3.81)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f8a4829b-c172-4570-816d-0e91e8984039)
+    (property "Sheetname" "Raspberry Pi Headers" (at 77.47 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Raspberry_Pi_Hdr.kicad_sch" (at 77.47 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiScope2_PCB"
+        (path "/a3412a64-16d8-4b34-8917-d8abe19cafb7" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
